@@ -1,0 +1,151 @@
+.tic_table  {
+	border-color:red;
+	height:30%;
+	width:30%;
+	border-collapse:collapse;
+	line-height:40%;
+	border-top:0px solid black;
+	border-bottom:0px solid black;
+	border-left:0px solid black;
+	border-right:0px solid black;
+	margin-top:75px;
+	margin-bottom:75px;
+	
+	
+}
+
+.right_bottom
+{
+	
+	border-right:2px solid lightgrey;
+	border-bottom:2px solid lightgrey;
+}
+
+.td
+{
+	background-color:white;
+	border:0px;
+	color:teal;
+	opacity:0.25;
+	height:50px;
+	width:50px;
+	border-radius:5px;
+}
+.td:focus{background-color:lightgrey;}
+.td:hover{background-color:lightgrey;}
+.td:active{background-color:#e6e6e6;}
+.td:visited{text-decoration:none;outline:none;}
+
+
+.left_right
+{
+	border-left:2px solid lightgrey;
+	border-right:2px solid lightgrey;
+}
+.bottom {
+	border-bottom:2px solid lightgrey;
+}
+
+h1{
+	text-align:center;
+	text-decoration:underline;
+	font-family:chiller;
+	font-size:3em;
+	opacity:.8;
+	color:white;
+	user-select:none;
+}
+.reset{
+	background-color:teal;
+	border:0px;
+	color:white;
+	height:40px;
+	width:70px;
+	font-size:20px;
+	font-family:Harlow Solid;
+	border-radius:5px;
+}
+
+/*.x{background-color:white;
+	border:2px solid blue;
+	color:blue;
+	opacity:1;
+	font-size:25px;
+	font-family:garamond;
+	height:50px;
+	width:50px;
+	border-radius:30px;
+}
+
+.o{background-color:white;
+	border:2px solid red;
+	color:red;
+	opacity:1;
+	font-size:25px;
+	font-family:garamond;
+	height:50px;
+	width:50px;
+	border-radius:30px;
+}*/
+
+.x
+{
+	background-color:white;
+	border:0px;
+	color:teal;
+	opacity:.8;
+	font-size:18px;
+	height:50px;
+	width:50px;
+	border-radius:5px;
+}
+
+.o
+{
+	background-color:white;
+	border:0px;
+	color:teal;
+	opacity:.8;
+	font-size:18px;
+	height:50px;
+	width:50px;
+	border-radius:5px;
+}
+
+.new{
+	background-color:teal;
+	border:0px;
+	color:white;
+	height:40px;
+	width:120px;
+	font-size:20px;
+	font-family:Harlow Solid;
+	border-radius:5px;
+}
+
+.first{
+color:white;
+text-align:center;
+font-family:Fixedsys;
+font-size:3em;line-height:10em;
+display:none;}
+.first1{display:block;}
+
+.second{
+	color:white;
+	text-align:center;
+	font-family:Fixedsys;
+font-size:9em;line-height:4em;
+display:none;
+}
+.second1{display:block;}
+
+.black{color:white;}
+
+.body1{display:none;}
+.bodyshow{display:block;}
+	*{margin:0;padding:0;}
+.theme{background-color:white;
+height:100%;
+width:100%}
+.white{color:black;}

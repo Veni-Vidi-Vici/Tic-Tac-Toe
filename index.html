@@ -1,0 +1,47 @@
+<title>TIC-TAC-TOE</title>
+<link rel="shortcut icon" href="favicon.ico" type="images/x-logo">
+<link rel="stylesheet" href="tac.css">
+<script type="text/javascript" src="toe.js"></script>
+<body bgcolor="black">
+<body onload="timeout()">
+<div class="first" id="first">
+Let's Walk in the world of..............
+</div>
+<div class="second" id="second">
+TIC-TAC-TOE
+</div>
+<div id="body1" class="body1">
+
+
+
+<h1 id="1">TIC TAC TOE</h1><hr>
+<center>
+<h2 id="2" class="black">Results:</h2>
+<b class="black" id="p1"></b><i id="t1" class="black">&nbsp;(X):&nbsp;&nbsp;&nbsp;&nbsp;</i><strong class="black" id="xwin">0</strong><br>
+<b class="black" id="p2"></b><i id="t2" class="black">&nbsp;(O):&nbsp;&nbsp;&nbsp;&nbsp;</i><strong class="black" id="owin">0</strong>
+<p id="p3" class="black"/>Draw:&nbsp;&nbsp;&nbsp;&nbsp;<strong class="black" id="draw">0</strong>
+
+<hr>
+<center><table class="tic_table">
+<tr>
+<th class="right_bottom"/><button onclick="myfunc1()" id="one" class="td"/>x
+<th class="right_bottom"/><button onclick="myfunc2()" id="two" class="td"/>x
+<th class="bottom"/><button onclick="myfunc3()" id="three" class="td"/>x
+</tr>
+<tr>
+<th class="right_bottom"/><button onclick="myfunc4()" id="four" class="td"/>x
+<th class="right_bottom"/><button onclick="myfunc5()" id="five" class="td"/>x
+<th class="bottom"/><button onclick="myfunc6()" id="six" class="td"/>x
+</tr>
+<tr>
+<th/><button onclick="myfunc7()" id="seven"" class="td"/>x
+<th class="left_right"/><button onclick="myfunc8()" id="eight" class="td"/>x
+<th/><button onclick="myfunc9()" id="nine" class="td"/>x
+</tr>
+</table>
+<button onclick="set()" type="button" class="reset">Reset</button>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="index.html"><button type="button" class="new">New Game</button></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<button onclick="theme()" type="button" class="reset">Theme</button>&nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+</body>
